@@ -1,5 +1,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+[![CI][ci-shield]][ci-url]
+
 <br />
 <div align="center">
 <h3 align="center">API Gateway</h3>
@@ -89,3 +91,5 @@ Eros Burelli — [LinkedIn](https://www.linkedin.com/in/eros-burelli-a458b1145/)
 [docker-url]: https://www.docker.com/
 [java-shield]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
 [java-url]: https://www.java.com/
+[ci-shield]: https://github.com/order-fulfillment-platform/api-gateway/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/order-fulfillment-platform/api-gateway/actions/workflows/ci.yml
