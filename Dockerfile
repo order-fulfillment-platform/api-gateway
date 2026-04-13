@@ -9,6 +9,6 @@ RUN mvn package -DskipTests
 # Stage 2 - Runtime
 FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
-COPY target/api-gateway-1.0.0.jar app.jar
+COPY --from=builder /app/target/api-gateway-1.0.0.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
